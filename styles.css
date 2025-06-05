@@ -1,0 +1,156 @@
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-style: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #292C32;
+    text-align: center;
+}
+
+h1 {
+    font-style: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #3A5F56;
+}
+ 
+h2 {
+    font-style: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #3A5F56;
+}
+
+h3 {
+    font-style: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: center;
+position: fixed;
+top: 0;
+}
+
+#link {
+    font-size: 24px;
+    color: #F4F3F0;
+    text-decoration: none;
+    
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 60px;
+    background-color: #3A5F56;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.header-menu :hover {
+    text-decoration: underline;
+    color: #292C32;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+    max-width: 1168px;
+    margin: 100px 136px 50px 136px;
+    background-color: #F4F3F0;
+}
+
+.name {
+    width: 552px;
+    height: 568px;
+    margin: 102px 0;
+}
+
+.main-foto {
+    width: 552px;
+    height: 772px;
+    border-radius: 24px;
+}
+
+#projects {
+    width: 1440px;
+    margin: 100px 0;
+}
+
+.projets-text {
+    width: 600px;
+    height: 159px;
+    margin: 0 auto;
+}
+
+.project-card {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.card {
+    width: 379px;
+    height: 438px;
+}
+
+.picture {
+    width: 379px;
+    height: 252px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: 259px;
+    border-radius: 16px;
+    background-color: #F4F3F0;
+    font-size: 24px;
+    margin: 100px 320px;
+}
+
+.button {
+    width: 124px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #3A5F56;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 20px 338px;
+}
+
+#contact {
+    width: 1440px;
+    height: 279px;
+    background-color: #292C32;
+}
+
+.address {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .project-card
+     {
+        display: block;
+    }   
+}
