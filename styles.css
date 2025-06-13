@@ -83,9 +83,10 @@ top: 0;
 }
 
 .main-foto {
-    width: 552px;
-    height: 772px;
+    width: 200px;
+    height: 272px;
     border-radius: 24px;
+    margin: auto 0;
 }
 
 #projects {
@@ -113,6 +114,19 @@ justify-content: space-around;
 .picture {
     width: 379px;
     height: 252px;
+}
+
+#profile-link {
+    font-style: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #3A5F56;
+}
+
+#profile-link:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .contact-section {
@@ -146,6 +160,11 @@ justify-content: space-around;
 .address {
     font-size: 18px;
     color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {
