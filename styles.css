@@ -2,6 +2,11 @@ ul {
     list-style-type: none;
 }
 
+/* base */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-style: 'Roboto', sans-serif;
     font-size: 20px;
@@ -9,6 +14,10 @@ body {
     line-height: 1.4;
     color: #292C32;
     text-align: center;
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
 }
 
 h1 {
@@ -33,17 +42,25 @@ h3 {
     font-size: 32px;
     line-height: 1.2;
     color: #FFFFFF;
+    margin: 0;
 }
 
+/* .container {
+    width: 100%;
+    max-width: 1472 px;
+    margin: 0 auto;
+    padding: 0 16px;
+} */
 
-#navbar {
+
+.navbar {
     display: flex;
     justify-content: center;
-position: fixed;
-top: 0;
+    position: fixed;
+    top: 0;
 }
 
-#link {
+.link {
     font-size: 24px;
     color: #F4F3F0;
     text-decoration: none;
@@ -53,12 +70,11 @@ top: 0;
 .header-menu {
     display: flex;
     justify-content: space-around;
-    width: 1440px;
+    width: 1498px;
     height: 60px;
     background-color: #3A5F56;
     margin: 0;
-    padding: 0;
-    padding-top: 20px;
+    padding: 10px;
 }
 
 .header-menu :hover {
@@ -66,20 +82,19 @@ top: 0;
     color: #292C32;
 }
 
-#welcome-section {
+.welcome-section {
     display: flex;
     justify-content: center;
     gap: 64px;
     width: 100%;
     max-width: 1168px;
-    margin: 100px 136px 50px 136px;
+    margin: 0 auto;
     background-color: #F4F3F0;
 }
 
 .name {
     width: 552px;
-    height: 568px;
-    margin: 102px 0;
+    margin: 100px 0;
 }
 
 .main-foto {
@@ -89,8 +104,7 @@ top: 0;
     margin: auto 0;
 }
 
-#projects {
-    width: 1440px;
+.projects {
     margin: 100px 0;
 }
 
@@ -116,7 +130,7 @@ justify-content: space-around;
     height: 252px;
 }
 
-#profile-link {
+.profile-link {
     font-style: 'Source Serif Pro';
     font-weight: 400;
     font-size: 18px;
@@ -124,7 +138,7 @@ justify-content: space-around;
     color: #3A5F56;
 }
 
-#profile-link:hover {
+.profile-link:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
@@ -151,10 +165,11 @@ justify-content: space-around;
     margin: 20px 338px;
 }
 
-#contact {
-    width: 1440px;
+.contact {
+    /* width: 1440px; */
     height: 279px;
     background-color: #292C32;
+    padding: 50px;
 }
 
 .address {
