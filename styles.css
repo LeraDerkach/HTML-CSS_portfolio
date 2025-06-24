@@ -196,15 +196,42 @@ justify-content: center;
 @media (max-width: 768px) {
     .navbar {
     background-color: #3A5F;
+    position: relative;
     }
+
+    .header-menu {
+    padding: 0;
+    display: block;
+    }
+
+    .name {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-foto {
+ display: none;
+}
+
+.projects {
+    margin: 20px auto;
+}
+
+.projets-text {
+    width: 100%;
+    height: 60px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
 
 .contact-section {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    padding: 20px;
 } 
-
-.main-foto {
- display: none;
-}
 } 
