@@ -54,9 +54,6 @@ h3 {
     margin: 0;
 }
 
-
-
-
 .navbar {
     width: 100%;
     background-color: #3A5F56;
@@ -70,7 +67,6 @@ h3 {
     font-size: 24px;
     color: #F4F3F0;
     text-decoration: none;
-    
 }
 
 .header-menu {
@@ -86,6 +82,10 @@ h3 {
 .header-menu :hover {
     text-decoration: underline;
     color: #292C32;
+}
+
+.certifies {
+    height: 252px;
 }
 
 .welcome-section {
