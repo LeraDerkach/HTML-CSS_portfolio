@@ -54,6 +54,9 @@ h3 {
     margin: 0;
 }
 
+
+
+
 .navbar {
     width: 100%;
     background-color: #3A5F56;
@@ -67,6 +70,7 @@ h3 {
     font-size: 24px;
     color: #F4F3F0;
     text-decoration: none;
+    
 }
 
 .header-menu {
@@ -84,10 +88,6 @@ h3 {
     color: #292C32;
 }
 
-.certifies {
-    height: 252px;
-}
-
 .welcome-section {
     display: flex;
     justify-content: center;
@@ -99,7 +99,14 @@ h3 {
 
 .name {
     width: 552px;
-    margin: 100px 0;
+    padding: 50px 0;
+}
+
+.resume-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    fill: #3A5F56;
 }
 
 .main-foto {
@@ -112,8 +119,7 @@ h3 {
 .projects {
     width: 100%;
     max-width: 1440px;
-    margin: 100px auto;
-    padding: 0 20px;
+    padding: 50px 20px;
 } 
 
 .projets-text {
@@ -130,8 +136,8 @@ justify-content: center;
 }
 
 .card {
-    width: 379px;
-    height: 438px;
+    width: 378px;
+    padding: 20px;
 }
 
 .picture {
@@ -142,7 +148,7 @@ justify-content: center;
 .profile-link {
     font-family: 'Source Serif Pro';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 1.2;
     color: #3A5F56;
 }
@@ -150,6 +156,10 @@ justify-content: center;
 .profile-link:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+.certifies {
+    height: 252px;
 }
 
 .contact-section {
@@ -161,7 +171,6 @@ justify-content: center;
     border-radius: 16px;
     background-color: #F4F3F0;
     font-size: 24px;
-    margin: 100px auto;
     padding: 40px;
 } 
 
@@ -192,6 +201,11 @@ justify-content: center;
     display: flex;
     flex-direction: column;
 }  
+
+.footer-icons {
+    fill:#F4F3F0;
+    margin-right: 10px;
+}
 
 @media (max-width: 768px) {
     .navbar {
