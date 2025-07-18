@@ -99,7 +99,7 @@ h3 {
 
 .name {
     width: 552px;
-    padding: 50px 0;
+    padding: 100px 0 50px 0;
 }
 
 .resume-section {
@@ -120,6 +120,7 @@ h3 {
     width: 100%;
     max-width: 1440px;
     padding: 50px 20px;
+    margin: 0 auto;
 } 
 
 .projets-text {
@@ -232,9 +233,9 @@ justify-content: center;
  display: none;
 }
 
-.projects {
+/* .projects {
     margin: 20px auto;
-}
+} */
 
 .projets-text {
     width: 100%;
