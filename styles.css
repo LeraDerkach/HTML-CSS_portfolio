@@ -115,19 +115,43 @@ h3 {
     border-radius: 24px;
     margin: auto 0;
 }
-
 .projects {
+    position: relative;
     width: 100%;
     max-width: 1440px;
     padding: 50px 20px;
     margin: 0 auto;
-} 
+}  
 
-.projets-text {
-    width: 600px;
+.projects-text {
     height: 159px;
     margin: 0 auto;
 }
+
+.projects-accent::before,
+.projects-accent::after {
+    position: absolute;
+    display: block;
+    width: 352px;
+    border: 2px solid #3A5F56;
+    content: '';
+} 
+
+.projects-accent::before {
+    right: 0;
+    top: 86px;
+}
+
+.projects-accent::after {
+    left: 0;
+}
+
+/* .projects-title::before {
+    background-image: url(/images/Line\ 1.png);
+    background-size: 2px;
+    background-color: #3A5F56;
+
+} */
 
 .project-card {
 display: flex;
@@ -241,6 +265,11 @@ justify-content: center;
     width: 100%;
 }
 
+.projects-accent::before,
+.projects-accent::after {
+    width: 100px;
+}
+
 .card {
     width: 100%;
     height: auto;
@@ -253,3 +282,4 @@ justify-content: center;
     padding: 20px;
 } 
 } 
+
