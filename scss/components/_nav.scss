@@ -1,0 +1,15 @@
+.navbar {
+    width: 100%;
+    background-color: #3A5F56;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0; 
+}
+
+@media (max-width: 768px) {
+    .navbar {
+    background-color: #3A5F;
+    position: relative;
+    }
+}

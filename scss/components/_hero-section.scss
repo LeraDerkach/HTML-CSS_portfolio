@@ -1,0 +1,40 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    max-width: 1168px;
+    margin: 0 auto;
+    background-color: #F4F3F0;
+}
+
+.hero-title {
+    width: 552px;
+    padding: 100px 0 50px 0;
+}
+
+.hero-resume {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    fill: #3A5F56;
+}
+
+.hero-foto {
+    width: 200px;
+    height: 272px;
+    border-radius: 24px;
+    margin: auto 0;
+}
+
+@media (max-width: 768px) {
+ .hero-title {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-foto {
+ display: none;
+}
+}
+   

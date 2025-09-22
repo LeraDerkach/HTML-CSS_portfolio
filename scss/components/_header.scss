@@ -1,0 +1,23 @@
+.header-menu {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: inherit;
+}
+
+.header-menu :hover {
+    text-decoration: underline;
+    color: #292C32;
+}
+
+
+@media (max-width: 768px) {
+    .header-menu {
+    padding: 0;
+    display: block;
+    }
+}
+    
