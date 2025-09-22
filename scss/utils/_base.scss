@@ -1,0 +1,55 @@
+/* base */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #292C32;
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #3A5F56;
+}
+ 
+h2 {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #3A5F56;
+}
+
+h3 {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 0;
+}
