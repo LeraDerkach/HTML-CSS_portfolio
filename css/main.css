@@ -235,12 +235,12 @@ h3 {
     padding: 0;
     display: block;
   }
-  .name {
+  .hero-title {
     width: 100%;
     margin: 0 auto;
     padding: 20px;
   }
-  .main-foto {
+  .hero-foto {
     display: none;
   }
   /* .projects {
@@ -253,7 +253,7 @@ h3 {
   .projects-accent::after {
     width: 100px;
   }
-  .card {
+  .project-card {
     width: 100%;
     height: auto;
   }
