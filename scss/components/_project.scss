@@ -50,6 +50,14 @@ justify-content: center;
     height: 252px;
 }
 
+.project-link {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #3A5F56;
+}
+
 @media (max-width: 768px) {
 .projects-accent::before,
 .projects-accent::after {
@@ -61,3 +69,4 @@ justify-content: center;
     height: auto;
 }
 }
+
