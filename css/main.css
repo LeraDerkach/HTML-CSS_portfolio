@@ -160,6 +160,14 @@ h3 {
   height: 200px;
 }
 
+.project-link {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #3A5F56;
+}
+
 .hero-link {
   font-family: "Source Serif Pro";
   font-weight: 400;
