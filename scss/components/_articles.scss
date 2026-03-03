@@ -1,0 +1,69 @@
+.article {
+&-menu {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--color-background);
+    border: 2px solid black;
+    padding: 20px;
+    overflow-y: scroll;
+
+h3 {
+    color: black;
+    font-size: 20px;
+}
+
+a {
+    display: inline-block;
+    width: 140px;
+    height: auto;
+    border-radius: 4px;
+    border: 2px solid var(--text-light);
+    background-color: #c79a7d;
+    color: var(--text-light);
+    padding: 6px;
+    margin: 20px;
+    transition: transform 0.5 ease-in-out;
+
+&:hover {
+    box-shadow: 0px 0px 15px 15px var(--color-hover);
+}
+}
+
+&.active {
+    display: block;
+    animation: sliderIn 0.3s forwards;
+}
+}
+
+&-icon {
+    fill: var(--main-color);
+    transition: transform 0.5s ease;;
+
+&:hover {
+    transform: rotate(-20deg);
+    box-shadow: 0px 0px 8px 12px var(--color-hover);
+}  
+}
+
+
+&-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+}
+
+@keyframes sliderIn {
+    from {
+        right: -250px;
+    }
+    to {
+        right: 0;
+    }
+}
