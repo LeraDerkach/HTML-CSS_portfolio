@@ -312,10 +312,13 @@ a {
   top: 0;
   z-index: 2;
 }
+.navbar-box {
+  width: 5%;
+  padding: 4px;
+}
 .navbar-language {
   display: inline-block;
   color: var(--color-link);
-  margin: 10px auto;
   padding: 6px;
   border: 2px solid var(--color-link);
   border-radius: 50%;
