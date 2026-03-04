@@ -7,10 +7,14 @@
     top: 0; 
     z-index: 2;
 
+&-box {
+    width: 5%;
+    padding: 4px;
+}
+
 &-language {
     display: inline-block;
     color: var(--color-link);
-    margin: 10px auto;
     padding: 6px;
     border: 2px solid var(--color-link);
     border-radius: 50%;
@@ -66,5 +70,6 @@
     }
     }
 }
+
 
 
