@@ -7,6 +7,21 @@
     top: 0; 
     z-index: 2;
 
+&-language {
+    display: inline-block;
+    color: var(--color-link);
+    margin: 10px auto;
+    padding: 6px;
+    border: 2px solid var(--color-link);
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+
+&:hover {
+    transform: rotate(-20deg);
+    box-shadow: 0px 0px 8px 12px var(--color-hover);
+}  
+}
+
 &-menu {
     width: 80%;
     margin: 0 auto;
@@ -18,7 +33,7 @@
 &-icon {
     fill: var(--color-link);
     margin: 10px auto;
-    transition: transform 0.5s ease;;
+    transition: transform 0.5s ease;
 
 &:hover {
     transform: rotate(20deg);
@@ -51,3 +66,5 @@
     }
     }
 }
+
+
