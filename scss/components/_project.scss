@@ -40,6 +40,10 @@ justify-content: center;
     width: 378px;
     padding: 20px;
     transition: transform 0.5s ease-in-out;
+
+    p {
+        font-size: 16px;
+    }
 }
 
 &-card:hover {
@@ -62,6 +66,10 @@ justify-content: center;
 &-link:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+&-btn {
+    @include btn;
 }
 }
 
