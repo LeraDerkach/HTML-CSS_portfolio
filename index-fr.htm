@@ -11,20 +11,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Styles -->
-     <link rel="stylesheet" href="/css/main.css">
+     <link rel="stylesheet" href="css/main.css">
   </head>
 <body>
     <header>
     <nav class="navbar">
-         <div class="navbar-box">
+        <div class="navbar-box">
         <a class="navbar-language" href="index.html">EN</a>
-          </div>
+        </div>
       <ul class="navbar-menu">
         <li><a class="navbar-link" href="#projects">Projets</a></li>
         <li><a class="navbar-link" href="#certificates">Certificats</a></li>
         <li><a class="navbar-link" href="#contact">Contacts</a></li>
       </ul>
-      <svg class="navbar-icon" id="burger" width="30" height="30"><use href="/images/icons.svg#icon-folder-stroke"></use></svg>
+
+           <div class="navbar-mob-box">
+    <nav>
+      <div class="navbar-menu-mob">
+      <svg class="navbar-close-btn" width="30" height="30"><use href="images/icons.svg#icon-undo2"></use></svg>
+      <ul>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#certificates">Certificats</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
+      </div>
+    </nav>
+    <button class="navbar-btn-mob">Menu</button>
+</div>
+      <svg class="navbar-icon" id="burger" width="30" height="30"><use href="images/icons.svg#icon-folder-stroke"></use></svg>
     </nav>
 
 <nav id="menu" class="article-menu">
@@ -32,21 +46,21 @@
         <h2>Articles intéressants</h2>
 
         <div>
-        <img class="article-img" src="/images/articles/Best CSS Tips.jpg" alt="Bureau avec ordinateur">
+        <img class="article-img" src="images/articles/Best CSS Tips.jpg" alt="Bureau avec ordinateur">
         <h3>Meilleurs conseils et astuces CSS pour les développeurs</h3>
-        <a class="article-btn" target="_blank" href="/articles/article-3.html">Lire</a>
+        <a class="article-btn" target="_blank" href="articles/article-1fr.html">Lire</a>
         </div>
 
         <div>
-        <img class="article-img" src="/images/articles/SEO-Friendly HTML.jpg" alt="Ordinateur portable à moitié ouvert">
+        <img class="article-img" src="images/articles/SEO-Friendly HTML.jpg" alt="Ordinateur portable à moitié ouvert">
         <h3>Écrire un HTML propre et optimisé SEO pour de meilleures performances dans les moteurs de recherche</h3>
-        <a class="article-btn" target="_blank" href="/articles/article-2.html">Lire</a>
+        <a class="article-btn" target="_blank" href="articles/article-2fr.html">Lire</a>
         </div>
 
         <div>
-        <img class="article-img" src="/images/articles/CSS сontainer.jpg" alt="Touches de clavier">
+        <img class="article-img" src="images/articles/CSS сontainer.jpg" alt="Touches de clavier">
         <h3>Qu’est-ce qu’un conteneur CSS et <br>pourquoi en avez-vous besoin ?</h3>
-        <a class="article-btn" target="_blank" href="/articles/article-1.html">Lire</a>
+        <a class="article-btn" target="_blank" href="articles/article-3fr.html">Lire</a>
         </div>
 </nav>
 
@@ -69,12 +83,12 @@
             <p>Je suis toujours curieuse d’apprendre de nouvelles technologies et de relever des défis créatifs.</p>
 
             <div class="hero-resume">
-<svg width="30" height="30"><use href="/images/icons.svg#icon-profile"></use></svg>
+<svg width="30" height="30"><use href="images/icons.svg#icon-profile"></use></svg>
 <a class="hero-link" target="_blank"  
 href="https://drive.google.com/file/d/1J-PGk_l1HXxJnaqahjhVofeBWFnc_RlH/view?usp=sharing">CV</a>
     </div>
 </div>
-<img class="hero-foto" src="/images/Foto Valeriia.jpg" alt="Foto Valeriia">
+<img class="hero-foto" src="images/Foto Valeriia.jpg" alt="Foto Valeriia">
     <div class="hero-box-1">
     </div>
     <div class="hero-box-2">
@@ -89,50 +103,57 @@ href="https://drive.google.com/file/d/1J-PGk_l1HXxJnaqahjhVofeBWFnc_RlH/view?usp
         </div>
     <div class="project-catalog">
       <div class="project-card">
-            <img class="project-picture" src="/images/Sport.jpg" alt="A man does sports">
-            <a class="project-link" target="_blank" href="https://leraderkach.github.io/Superfit/">Superfit</a>
+            <img class="project-picture" src="images/Sport.jpg" alt="A man does sports">
+            <h3 class="project-link">Superfit</h3>
+            <a class="project-btn" target="_blank" href="https://leraderkach.github.io/Superfit/">Ouvrir</a>
           <p>Page d’accueil</p>
           </div>
         <div class="project-card">
             <img class="project-picture" src="images/Custom Cakes.jpg" alt="Photo de gâteau">
-            <a class="project-link" target="_blank" href="https://leraderkach.github.io/Handcrafted-Cakes/">Handcrafted Cakes</a>
+            <h3 class="project-link">Handcrafted Cakes</h3>
+            <a class="project-btn" target="_blank" href="https://leraderkach.github.io/Handcrafted-Cakes/">Ouvrir</a>
           <p>Page d’accueil</p>
           </div>
         <div class="project-card">
             <img class="project-picture" src="images/HTML code.jpg" alt="Code HTML sur l'écran de l'ordinateur">
-            <a class="project-link" target="_blank" href="https://leraderkach.github.io/Technical-documentation-page/">Technical documentation page</a>
+            <h3 class="project-link">Technical documentation page</h3>
+            <a class="project-btn" target="_blank" href="https://leraderkach.github.io/Technical-documentation-page/">Ouvrir</a>
             <p>Article technique</p>
             </div>
         <div class="project-card">
             <img class="project-picture" src="images/Form.jpg" alt="Un formulaire qu'une personne remplit">
-            <a class="project-link" target="_blank" href="https://leraderkach.github.io/Form/">Form</a>
+            <h3 class="project-link">Form</h3>
+            <a class="project-btn" target="_blank" href="https://leraderkach.github.io/Form/">Ouvrir</a>
             <p>Formulaire réactif</p>
             </div>
         <div class="project-card">
           <img class="project-picture" src="images/Volodymyr Vernadsky.jpg" alt="Photo de Volodymyr Vernadsky">
-            <a class="project-link" target="_blank" href="https://leraderkach.github.io/Volodymyr-Vernadsky/">Volodymyr Vernadsky</a>
+          <h3 class="project-link">Volodymyr Vernadsky</h3>
+            <a class="project-btn" target="_blank" href="https://leraderkach.github.io/Volodymyr-Vernadsky/">Ouvrir</a>
             <p>Page d’accueil</p>
             </div>
        <div class="project-card">     
         <img class="project-picture" src="images/mountains.jpg" alt="Montagnes">
-            <a class="project-link" target="_blank" href="https://leraderkach.github.io/Welcome-to-Calm/">Welcome to Calm</a>
+        <h3 class="project-link">Welcome to Calm</h3>
+            <a class="project-btn" target="_blank" href="https://leraderkach.github.io/Welcome-to-Calm/">Ouvrir</a>
             <p>Page d’accueil</p>
             </div>
             <div class="project-card">     
         <img class="project-picture" src="images/Game by cards.jpg" alt="Game by cards">
-            <a class="project-link" target="_blank" href="https://leraderkach.github.io/Cosmobet-game/">Online games Cosmobet</a>
+        <h3 class="project-link">Online games Cosmobet</h3>
+            <a class="project-btn" target="_blank" href="https://leraderkach.github.io/Cosmobet-game/">Ouvrir</a>
             <p>Page d’accueil du jeu</p>
             </div>
             <div>
-<p>Ces pages ont été développées en utilisant HTML5, CSS Grid et CSS Flexbox, incluent une adaptation mobile responsive et sont hébergées sur GitHub.</p>
+<p>Ces pages ont été développées en utilisant HTML5, CSS Flexbox et JavaScript, incluent une adaptation mobile responsive et sont hébergées sur GitHub.</p>
         <p>Les projets mettent l’accent sur le design responsive, une structure propre et des techniques de mise en page modernes.</p>
         </div>
         </section>
       <section class="container certifies" id="certificates">
         <h2 class="certifies-accent">Certificates</h2>
         <div class="certifies-box">
-        <img class="certifies-image" src="/images/Certifies Web Design.png" alt="Certifies_Web_Design">
-        <img class="certifies-image" src="/images/diplom_Front_end.jpg" alt="Certifies_Web_Design">
+        <img class="certifies-image" src="images/Certifies Web Design.png" alt="Certifies_Web_Design">
+        <img class="certifies-image" src="images/diplom_Front_end.jpg" alt="Certifies_Web_Design">
         </div>
             </div>
      </div>
@@ -144,22 +165,22 @@ href="https://drive.google.com/file/d/1J-PGk_l1HXxJnaqahjhVofeBWFnc_RlH/view?usp
         <ul class="footer-nav">
 
             <li>
-                <svg class="footer-icons" width="20" height="20"><use href="/images/icons.svg#icon-new-tab"></use></svg>
+                <svg class="footer-icons" width="20" height="20"><use href="images/icons.svg#icon-new-tab"></use></svg>
                 <a class="footer-address" target="_blank" href="mailto:lera1derkach@gmail.com">lera1derkach@gmail.com</a>
             </li>
 
             <li>
-                <svg class="footer-icons" width="20" height="20"><use href="/images/icons.svg#icon-whatsapp"></use></svg>
+                <svg class="footer-icons" width="20" height="20"><use href="images/icons.svg#icon-whatsapp"></use></svg>
                 <a class="footer-address" target="_blank" href="https://wa.me/qr/GEE2BHAWC2JWI1">WhatsApp</a>
             </li>
 
             <li>
-                <svg class="footer-icons" width="20" height="20"><use href="/images/icons.svg#icon-linkedin"></use></svg>
+                <svg class="footer-icons" width="20" height="20"><use href="images/icons.svg#icon-linkedin"></use></svg>
                 <a class="footer-address" target="_blank" href="https://www.linkedin.com/in/%D0%B2%D0%B0%D0%BB%D0%B5%D1%80%D1%96%D1%8F-%D0%B4%D0%B5%D1%80%D0%BA%D0%B0%D1%87-63a597275/?trk=opento_sprofile_pfeditor">LinkedIn</a>
             </li>
 
             <li>
-                <svg class="footer-icons" width="20" height="20"><use href="/images/icons.svg#icon-github"></use></svg>
+                <svg class="footer-icons" width="20" height="20"><use href="images/icons.svg#icon-github"></use></svg>
                 <a class="footer-address" target="_blank" href="https://github.com/LeraDerkach">GitHub</a>
             </li>
 
@@ -180,8 +201,6 @@ href="https://drive.google.com/file/d/1J-PGk_l1HXxJnaqahjhVofeBWFnc_RlH/view?usp
     <div class="footer-box-4">
     </div>
 </footer>
-    <script src="/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>
-
