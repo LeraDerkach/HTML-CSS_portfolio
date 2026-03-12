@@ -31,7 +31,9 @@
     transition: transform 1s ease;
 
     &:hover {
-    transform: scale(1.2); 
+      background-color: var(--color-hover);
+      color: var(--text-light);
+      @include link;
 }
 }
 
