@@ -155,6 +155,9 @@ a {
   color: var(--text-light);
   padding: 0;
 }
+.footer-address:hover {
+  text-decoration: underline;
+}
 .footer-contact {
   display: flex;
   justify-content: center;
