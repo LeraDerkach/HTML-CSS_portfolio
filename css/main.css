@@ -177,10 +177,10 @@ a {
   margin: 0 auto;
   transition: transform 0.5s ease-in-out;
 }
-.footer-button:hover {
+.footer-button:hover:hover {
   border: var(--color-hover) 2px solid;
   box-shadow: 0px 0px 15px 15px var(--color-hover);
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 .footer-box-1 {
   position: absolute;
@@ -273,6 +273,12 @@ a {
   transition: transform 1s ease;
 }
 .hero-link:hover {
+  background-color: var(--color-hover);
+  color: var(--text-light);
+}
+.hero-link:hover:hover {
+  border: var(--color-hover) 2px solid;
+  box-shadow: 0px 0px 15px 15px var(--color-hover);
   transform: scale(1.2);
 }
 .hero-foto {
