@@ -127,6 +127,7 @@ a {
   }
 }
 .footer {
+  display: flex;
   width: 100%;
   min-height: 279px;
   margin: 0 auto;
