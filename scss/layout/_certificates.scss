@@ -1,0 +1,42 @@
+.certifies {
+    position: relative;
+
+&-accent::before,
+&-accent::after {
+    position: absolute;
+    display: block;
+    width: 352px;
+    border: 2px solid var(--main-color);
+    content: '';
+} 
+
+&-accent::before {
+    right: 0;
+    top: 46px;
+}
+
+&-accent::after {
+    left: 0;
+}
+
+&-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 20px;
+    gap: 20px;
+}
+}
+
+@media (max-width: 768px) {
+    .certifies {
+&-accent::before,
+&-accent::after {
+    width: 100px;
+}
+
+&-box {
+    flex-direction: column;
+}
+}
+}
