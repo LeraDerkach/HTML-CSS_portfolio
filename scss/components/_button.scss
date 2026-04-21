@@ -1,0 +1,64 @@
+.btn {
+    &-article {
+    @include btn;
+    width: 140px;
+    background-color: var(--color-button);
+    color: var(--text-light);
+    }
+
+    &-project {
+    @include btn;
+    width: 160px;
+    background-color: var(--color-button);
+    color: var(--text-light);
+    }
+
+    &-footer {
+    @include btn;
+    width: 124px;
+    background-color: var(--main-color);
+    color: var(--color-light);
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+
+&:hover {
+  border: var(--color-hover) 2px solid;
+    box-shadow: 0px 0px 15px 15px var(--color-hover);
+    transform: scale(1.2);
+}
+}
+
+    &-navbar-close {
+    fill: var(--main-color);
+    transition: transform 0.5s ease;
+    
+    &:hover {
+    transform: rotate(-20deg);
+    box-shadow: 0px 0px 8px 12px var(--color-hover);
+}  
+}
+}
+
+@media (max-width: 768px) {
+    .btn {
+    &-navbar-mob {
+    width: 80px;
+    padding: 6px;
+    color: var(--text-light);
+    background-color: var(--color-hover);
+    border: 2px solid var(--text-light);
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer; 
+}
+
+  &_footer:hover {
+    border: var(--color-background) 2px solid;
+    box-shadow: 0px 0px 5px 5px var(--color-background);
+    transform: scale(1);
+    }
+}
+}
+
