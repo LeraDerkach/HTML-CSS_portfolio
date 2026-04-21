@@ -1,13 +1,21 @@
-@import './utils/base';
 @import './utils/vars';
 @import './utils/mixins';
 
-@import './components/articles';
-@import './components/footer';
-@import './components/hero';
-@import './components/nav';
-@import './components/project';
-@import './components/certifies';
+@import './base/reset';
+@import './base/typography';
+
+@import './components/button';
+@import './components/picture';
+@import './components/icon';
+@import './components/overlay';
+
+@import './layout/container';
+@import './layout/nav';
+@import './layout/articles';
+@import './layout/hero';
+@import './layout/project';
+@import './layout/certificates';
+@import './layout/footer';
 
 
 
