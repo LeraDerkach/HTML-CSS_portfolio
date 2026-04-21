@@ -1,1 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+/* Text elements */
+h1, h2, h3, p {
+  margin: 0;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Body */
+body {
+  margin: 0;
+}
