@@ -4,15 +4,9 @@
     max-width: 1440px;
     padding: 50px 20px;
     margin: 0 auto;
-  
 
-&-text {
-    height: 159px;
-    margin: 0 auto;
-}
-
-&-accent::before,
-&-accent::after {
+    &-accent::before,
+    &-accent::after {
     position: absolute;
     display: block;
     width: 352px;
@@ -22,18 +16,25 @@
 
 &-accent::before {
     right: 0;
-    top: 86px;
+    top: 96px;
 }
 
 &-accent::after {
     left: 0;
 }
+  
+
+&-text {
+    padding-top: 20px;
+}
+
+
 
 &-catalog {
 @include flex;
 flex-wrap: wrap;
 gap: 20px;
-
+padding: 20px 0;
 }
 
 &-card {
